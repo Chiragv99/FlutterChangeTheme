@@ -10,8 +10,10 @@ class ThemesModel {
   final Color buttonBg;
   final Color headerBg;
   final Color progressbarBg;
+  final Color bodyColor;
 
   final double titleSize;
+  final double subtitleSize;
   ///
   ThemesModel({
     required this.titleColor,
@@ -23,7 +25,9 @@ class ThemesModel {
     required this.buttonBg,
     required this.headerBg,
     required this.progressbarBg,
-    required this.titleSize
+    required this.bodyColor,
+    required this.titleSize,
+    required this.subtitleSize
   });
 }
 

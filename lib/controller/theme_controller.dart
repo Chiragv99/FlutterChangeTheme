@@ -18,7 +18,9 @@ class ThemeController extends GetxController{
         buttonBg: listOfThemes[bottomSheetColorIndex].buttonBg,
         headerBg:listOfThemes[bottomSheetColorIndex].headerBg,
         progressbarBg:listOfThemes[bottomSheetColorIndex].progressbarBg,
-        titleSize: listOfThemes[bottomSheetColorIndex].titleSize
+        titleSize: listOfThemes[bottomSheetColorIndex].titleSize,
+        subtitleSize: listOfThemes[bottomSheetColorIndex].subtitleSize,
+        bodyColor: listOfThemes[bottomSheetColorIndex].bodyColor
     );
 
   }
