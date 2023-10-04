@@ -14,7 +14,7 @@ class CustomProgressDialoug extends StatelessWidget {
       // The background color
       backgroundColor: Colors.white,
       child: Padding(
-        padding: EdgeInsets.symmetric(vertical: 20),
+        padding: const EdgeInsets.symmetric(vertical: 20),
         child: Column(
           mainAxisSize: MainAxisSize.min,
           children: [
