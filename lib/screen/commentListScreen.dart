@@ -21,18 +21,17 @@ class _CommentListStateScreen extends State<CommentListScreen>{
         decoration: BoxDecoration(
             color: themeController.currentTheme().bG
         ),
-        child: SingleChildScrollView(
-          child: Column(
-            children: [
-              Text(
-                "Comment List",
-                style: TextStyle(
-                    color: themeController.currentTheme().titleColor,fontSize: themeController.currentTheme().titleSize,fontWeight: FontWeight.bold
-                ),
+        child: Column(
+          children: [
+            Text(
+              "Comment List",
+              style: TextStyle(
+                  color: themeController.currentTheme().titleColor,fontSize: themeController.currentTheme().titleSize,fontWeight: FontWeight.bold
               ),
-              GetCommentListWidget()
-            ],
-          ),
+            ),
+            Expanded(child:
+            GetCommentListWidget())
+          ],
         ),
       )),
     );
