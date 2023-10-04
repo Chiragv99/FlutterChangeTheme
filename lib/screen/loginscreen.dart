@@ -159,7 +159,7 @@ class _LoginScreenState extends State<LoginScreen>{
      }else if(_passCntrl.text.toString() == ""){
        Utils.showSnackBar(context,"Validation", "Please Enter Password!");
      }else{
-       Utils.showSnackBar(context,"Validation", "Success!");
+       Get.toNamed(RouteName.commentscreen);
      }
   }
 

@@ -15,6 +15,5 @@ const Color kDanger = Color(0xFFDF2E21);
 const Color kGrey = Color(0xFFE8E4E4);
 const Color kShareCodeBg = Color(0xFFF1F3F7);
 const Color kSettingDivider = Color(0xFFF1F1F1);
-const String kLoremText =
-    "Lorem Ipsum is simply dummy text of the printing and typesetting. ";
+const String kLoremText = "Lorem Ipsum is simply dummy text of the printing and typesetting. ";
 const Color kGreen = Color(0xFF28B446);

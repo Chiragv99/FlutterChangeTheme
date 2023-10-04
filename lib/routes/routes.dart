@@ -1,3 +1,4 @@
+import 'package:fluttercustomtheme/screen/commentListScreen.dart';
 import 'package:get/get_navigation/src/routes/get_route.dart';
 import 'package:get/get_navigation/src/routes/transitions_type.dart';
 import '../screen/homescreen.dart';
@@ -23,6 +24,12 @@ class AppRoutes{
     GetPage(
         name:RouteName.signupscreen,
         page: () => SignupScreen(),
+        transitionDuration:const Duration(milliseconds: 250),
+        transition:Transition.leftToRightWithFade
+    ),
+    GetPage(
+        name:RouteName.commentscreen,
+        page: () => CommentListScreen(),
         transitionDuration:const Duration(milliseconds: 250),
         transition:Transition.leftToRightWithFade
     ),

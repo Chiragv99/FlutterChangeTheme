@@ -102,6 +102,7 @@ class _CountrySelectionTextFieldState extends State<CountrySelectionTextField> {
                     fillColor: Colors.grey,
                     counterText: "",
                   ),
+                  
                   onChanged: (str) {
                     widget.onChanged(str);
                   },
