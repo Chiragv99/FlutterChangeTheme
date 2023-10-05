@@ -1,5 +1,6 @@
 
 import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
 import 'package:fluttercustomtheme/viewmodel/GetBrand/getbrand_list_viewmodel.dart';
 import 'package:get/get.dart';
 
@@ -22,7 +23,7 @@ class _GetPostListScreenStateScreen extends State<GetPostListWidget>{
     // TODO: implement build
     return Obx(() => commentListViewModel.isLoading.value ? Column(
       children: [
-        Text(commentListViewModel.posts.getCommentModel!.id.toString()),
+        Text(commentListViewModel.posts.getCommentModel!.id.toString(),style: TextStyle(fontSize: 15,color: Colors.black),),
         Text(commentListViewModel.posts.getCommentModel!.createdAt.toString())
       ],
     )
