@@ -24,7 +24,7 @@ class _CommentListStateScreen extends State<CommentListScreen>{
         ),
         child: Column(
           children: [
-            SizedBox(
+            const SizedBox(
               height: 15,
             ),
             Text(
